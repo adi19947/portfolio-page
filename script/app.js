@@ -1,7 +1,7 @@
 let itemsContainer = document.getElementById('nav-items-container');
 let closeMenu = document.querySelector('.close-menu');
 let hamburgerMenu = document.querySelector('.hamburger-image');
-
+//this is change
 let isOpen = false
 hamburgerMenu.addEventListener('click', () => {
 
