@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rowdies", cursive;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  height: 4.4em;
+  border-bottom: 1.2px solid #eee;
+}
+
+#nav-name-image .name {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+#nav-items-container {
+  display: none;
+}
+
+#nav-items-container .navbar-items {
+  list-style: none;
+  position: absolute;
+
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item .nav-link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  width: 100vw;
+  font-weight: 700;
+  padding: 1.3rem;
+  letter-spacing: 3px;
+  border-bottom: 1.2px solid #eee;
+}
+
+.ham-menu .hamburger-image {
+  width: 1.6em;
+  height: 1.6em;
+}
+.ham-menu .close-menu {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  line-height: 3rem;
+  background-color: rgba(229, 234, 238, 0.568);
+}
+
+.home-content .home-heading {
+  letter-spacing: 0.1rem;
+}
+
+.home-content .text-home {
+  letter-spacing: 0.2rem;
+}
+
+.home-content .home-projects-btn {
+  text-decoration: none;
+  color: black;
+  margin-top: 2rem;
+  width: 10rem;
+  text-align: center;
+  background-color: rgb(250, 214, 12);
+  border-radius: 5%;
+  letter-spacing: 0.1rem;
+}
+
+/* font-family: "Rowdies", cursive; */
