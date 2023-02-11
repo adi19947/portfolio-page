@@ -66,6 +66,7 @@ body {
   flex-direction: column;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  margin-bottom: 3rem;
   line-height: 3rem;
   background-color: rgba(229, 234, 238, 0.568);
 }
@@ -97,8 +98,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 1rem;
+  margin-bottom: 5rem;
 }
 
 .about-content .heading-about {
@@ -125,11 +125,55 @@ body {
 .about-content .skills-icons {
   display: flex;
   gap: 1rem;
-  padding: 1rem;
 }
 
 .programing-icon {
   width: 5rem;
   height: 5rem;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: rgba(229, 234, 238, 0.568);
+  padding-top: 8rem;
+}
+
+.projects-content .heading-projects {
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  margin: 1.5rem;
+}
+
+.projects-content .subtitle-projects {
+  line-height: 1.5rem;
+  margin-bottom: 8rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  width: 90%;
+  margin-bottom: 8rem;
+  line-height: 2;
+  box-shadow: 2px 2px 5px #ccc;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+
+.project-img {
+  width: 100%;
 }
 /* font-family: "Rowdies", cursive; */
