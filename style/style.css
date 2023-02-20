@@ -79,6 +79,7 @@ body {
 .home-content .home-text {
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .home-content .home-projects-btn {
@@ -175,5 +176,142 @@ body {
 
 .project-img {
   width: 100%;
+}
+
+.download-project {
+  text-decoration: none;
+  color: black;
+  margin-top: 2rem;
+  width: 13rem;
+  text-align: center;
+  background-color: rgb(250, 214, 12);
+  border-radius: 5%;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+  gap: 3rem;
+  padding: 0 0rem 0 0rem;
+}
+
+.contact-header {
+  padding: 0 2rem 0 2rem;
+  line-height: 1.5;
+}
+
+.contact-heading {
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  margin: 1.5rem;
+}
+
+.subtitle-contact {
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-content .contact-form {
+  background-color: rgba(229, 234, 238, 0.568);
+  padding: 2rem;
+  width: 90%;
+  display: block;
+  text-align: center;
+}
+
+.label-input {
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: left;
+}
+
+.contact-input {
+  color: #333;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  font-size: 1rem;
+  letter-spacing: 0;
+  background: white;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#message {
+  resize: none;
+  color: #333;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  font-size: 1rem;
+  letter-spacing: 0;
+  background: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.error-message {
+  color: red;
+}
+
+.contact-form .contact-btn {
+  color: black;
+  margin-top: 2rem;
+  text-decoration: none;
+  width: 8rem;
+  text-align: center;
+  background-color: rgb(250, 214, 12);
+  border-radius: 5%;
+  letter-spacing: 0.18rem;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.footer-content {
+  background-color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.social-heading {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.copyright-footer {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 /* font-family: "Rowdies", cursive; */

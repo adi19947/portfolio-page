@@ -27,3 +27,45 @@ function changeSrc(src) {
     hamburgerMenu.src = src;
 }
 
+
+// Select the form element
+const formBtn = document.querySelector('.contact-btn');
+
+// Select the input elements
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const phoneInput = document.getElementById('phone');
+// Select the error message elements
+const nameError = document.querySelector('#name-error');
+const emailError = document.querySelector('#email-error');
+const phoneError = document.getElementById('phone-error');
+
+let lol = phoneInput.value;
+
+// Add a submit event listener to the form
+formBtn.addEventListener('click', () => {
+
+    // Validate the name field
+    if (nameInput.value === '') {
+        nameError.textContent = '*Please enter your name';
+    } else { nameError.textContent = '' }
+
+    // Validate the email field
+    if (emailInput.value === '') {
+        emailError.textContent = '*Please enter your email';
+    } else if (!emailInput.value.includes('@')) {
+        emailError.textContent = 'Please enter a valid email';
+    } else { nameError.textContent = '' }
+
+
+    // validate the phone field
+    if (phoneInput.value === '') {
+        phoneError.textContent = "*Please enter your phone number"
+    } else { nameError.textContent = '' }
+
+
+    // If all fields are valid, submit the form
+    if (nameInput.value !== '' && emailInput.value !== '' && emailInput.value.includes('@') && messageInput.value !== '') {
+        formBtn.submit();
+    }
+});
