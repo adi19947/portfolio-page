@@ -23,8 +23,17 @@
         <div class="ham-menu">
             <img src="./images/menu.png" alt="menu" srcset="" class="hamburger-image">
         </div>
+        <div id="nav-items-container-lg">
+            <ul class="navbar-items-lg">
+                <li class="nav-item-lg"><a class="nav-link-lg" href="#home">HOME</a> </li>
+                <li class="nav-item-lg"><a class="nav-link-lg" href="#about">ABOUT</a> </li>
+                <li class="nav-item-lg"><a class="nav-link-lg" href="#projects">PROJECTS</a> </li>
+                <li class="nav-item-lg"><a class="nav-link-lg" href="#contact">CONTACT</a> </li>
+            </ul>
+        </div>
 
     </div>
+
     <div id="nav-items-container">
         <ul class="navbar-items">
             <li class="nav-item"><a class="nav-link" href="#home">HOME</a> </li>
@@ -39,7 +48,7 @@
     <section class="home-content" id="home">
         <h1 class="home-heading">HEY, I'M ADI DAN</h1>
         <P class="home-text">A Frontend Developer</P>
-        <a href="#projects" class="home-projects-btn">MY PROJECTS</a>
+        <a href="#projects" class="home-projects-btn btn">MY PROJECTS</a>
     </section>
 
     <section class="about-content" id="about">
@@ -52,11 +61,15 @@
             overall product. Check out some of my work in the Projects section.</p>
 
         <h3 class="heading-skills">My Skills</h3>
+        <hr class="skills-hr">
         <div class="skills-icons">
             <img src="./images/api.png" alt="api" srcset="" class="programing-icon">
             <img src="./images/js.png" alt="api" srcset="" class="programing-icon">
             <img src="./images/programming.png" alt="api" srcset="" class="programing-icon">
             <img src="./images/typescript.png" alt="api" srcset="" class="programing-icon">
+            <img src="./images/css.png" alt="api" srcset="" class="programing-icon">
+            <img src="./images/html-5.png" alt="api" srcset="" class="programing-icon">
+            <img src="./images/bootstrap.png" alt="api" srcset="" class="programing-icon">
         </div>
     </section>
 
@@ -66,39 +79,39 @@
         <div class="projects">
             <div class="project">
                 <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>CRYPTO WEBSITE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/cryptoPage.html" class="project-link">PROJECT PAGE</a>
+                <h3 class="project-card-title">CRYPTO WEBSITE</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/cryptoPage.html" class="project-link btn">PROJECT PAGE</a>
+            </div>
+            <div class="project">
+                <img src="./images/airport-g00f151046_1920.jpg" alt="crypto" srcset="" class="project-img">
+                <h3 class="project-card-title">FLIGHTS WEBSITE</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/flightSite.html" class="project-link btn">PROJECT PAGE</a>
+            </div>
+            <div class="project">
+                <img src="./images/CAR.jpg" alt="crypto" srcset="" class="project-img">
+                <h3 class="project-card-title">GAME CAR</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/gameCar.html" class="project-link btn">PROJECT PAGE</a>
             </div>
             <div class="project">
                 <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/projects/" class="project-link"></a>
+                <h3 class="project-card-title">Project 3</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/projects/" class="project-link btn">PROJECT PAGE</a>
             </div>
             <div class="project">
                 <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/projects/" class="project-link"></a>
+                <h3 class="project-card-title">Project 3</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/projects/" class="project-link btn">PROJECT PAGE</a>
             </div>
             <div class="project">
                 <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/projects/" class="project-link"></a>
-            </div>
-            <div class="project">
-                <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/projects/" class="project-link"></a>
-            </div>
-            <div class="project">
-                <img src="./images/Crypto.png" alt="crypto" srcset="" class="project-img">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="/projects/" class="project-link"></a>
+                <h3 class="project-card-title">Project 3</h3>
+                <p class="project-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/projects/" class="project-link btn">PROJECT PAGE</a>
             </div>
         </div>
     </section>
@@ -127,15 +140,15 @@
             <span id="message-error" class="error-message"></span>
             <textarea id="message" class="contact-input" placeholder="Enter Your Message"></textarea>
 
-            <input type="button" class="contact-btn" value="SEND"></input>
+            <input type="button" class="contact-btn btn" value="SEND"></input>
         </form>
     </section>
 
     <footer class="footer-content">
         <h2 class="social-heading">social</h2>
-        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://www.facebook.com/adi.dan.10?mibextid=LQQJ4d" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-github"></a>
+        <a href="https://github.com/adi19947" class="fa fa-github"></a>
         <a href="#" class="fa fa-envelope"></a>
         <hr>
         <p class="copyright-footer">@site created by Adi Dan</p>

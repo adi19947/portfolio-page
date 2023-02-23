@@ -40,7 +40,6 @@ const nameError = document.querySelector('#name-error');
 const emailError = document.querySelector('#email-error');
 const phoneError = document.getElementById('phone-error');
 
-let lol = phoneInput.value;
 
 // Add a submit event listener to the form
 formBtn.addEventListener('click', () => {
@@ -48,7 +47,7 @@ formBtn.addEventListener('click', () => {
     // Validate the name field
     if (nameInput.value === '') {
         nameError.textContent = '*Please enter your name';
-    } else { nameError.textContent = '' }
+    } else { nameError.textContent = '', emailError.textContent = '', phoneError.textContent = '' }
 
     // Validate the email field
     if (emailInput.value === '') {
@@ -65,7 +64,7 @@ formBtn.addEventListener('click', () => {
 
 
     // If all fields are valid, submit the form
-    if (nameInput.value !== '' && emailInput.value !== '' && emailInput.value.includes('@') && messageInput.value !== '') {
+    if (nameInput.value !== '' && emailInput.value !== '' && emailInput.value.includes('@')) {
         formBtn.submit();
     }
 });

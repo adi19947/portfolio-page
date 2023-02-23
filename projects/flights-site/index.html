@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>My Flights</header>
+
+
+    <div id="airports">
+        <h1 class="heading">Find airports by city name</h1>
+        <div id="input-airports">
+            <input type="text" id="city-input" placeholder="city name" class="input">
+            <button id="searchAirports" class="btn">Search airports</button>
+        </div>
+    </div>
+
+    <div id="airportsResult"></div>
+
+
+    <div id="flightDetails">
+
+        <h1 class="heading">Flights Details</h1>
+        <div class="inputDetails">
+
+            <label for="">From:</label>
+            <input type="text" id="takeOffInput" placeholder="Airport code" class="input">
+
+
+            <label for="">To:</label>
+            <input type="text" id="landingInput" placeholder="Airport code" class="input">
+
+
+            <label for="">Direction:</label>
+            <select name="" id="directions" class="input">
+                <option value="roundtrip">roundtrip</option>
+                <option value="onewaytrip">one way</option>
+            </select>
+
+
+            <label for="">Departure:</label>
+            <input type="date" name="" id="startDateInput" class="input">
+
+
+            <label for="">Return:</label>
+            <input type="date" name="" id="endDateInput" class="input">
+            <br>
+
+            <button id="searchFlights" class="btn">Search flights</button>
+
+        </div>
+    </div>
+
+    <div id="flightsResultContainer"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

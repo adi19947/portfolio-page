@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.airport-technology.com/wp-content/uploads/sites/14/2022/01/shutterstock_758602234-min-1038x778.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 40px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.heading {
+  font-size: 38.4px;
+  text-decoration: underline;
+  font-style: italic;
+  color: aliceblue;
+  margin: 5px;
+}
+
+#airports {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(0, 0, 80, 0.6);
+}
+
+.airportsLabel {
+  font-size: 1.8rem;
+  margin: 5px;
+  color: black;
+}
+
+#input-button {
+  margin: 5px;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5%;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: bisque;
+  color: green;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.9);
+  background-color: green;
+  color: bisque;
+}
+
+#airportsResult {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 80, 0.6);
+  color: aliceblue;
+}
+
+#flightDetails {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: aliceblue;
+  background-color: rgba(0, 0, 80, 0.6);
+  padding: 10px;
+}
+
+.inputDetails {
+  display: flex;
+
+  justify-content: center;
+  align-items: left;
+
+  flex-direction: column;
+}
+
+#flightResultContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flightDiv {
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 3px;
+  padding: 3px;
+  padding-left: 10px;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 80, 0.6);
+  color: rgba(255, 255, 255, 0.897);
+}
