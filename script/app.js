@@ -46,6 +46,7 @@ formBtn.addEventListener('click', () => {
 
     // Validate the name field
     if (nameInput.value === '') {
+
         nameError.textContent = '*Please enter your name';
     } else { nameError.textContent = '', emailError.textContent = '', phoneError.textContent = '' }
 
@@ -54,17 +55,18 @@ formBtn.addEventListener('click', () => {
         emailError.textContent = '*Please enter your email';
     } else if (!emailInput.value.includes('@')) {
         emailError.textContent = 'Please enter a valid email';
-    } else { nameError.textContent = '' }
+    } else { emailError.textContent = '' }
 
 
     // validate the phone field
     if (phoneInput.value === '') {
         phoneError.textContent = "*Please enter your phone number"
-    } else { nameError.textContent = '' }
+    } else if (isNaN(phoneInput.value)) { phoneError.textContent = '*This field must contain only numbers' } else { phoneError.textContent = '' }
 
 
     // If all fields are valid, submit the form
-    if (nameInput.value !== '' && emailInput.value !== '' && emailInput.value.includes('@')) {
-        formBtn.submit();
-    }
+    // if (nameInput.value !== '' && emailInput.value !== '' && emailInput.value.includes('@')) {
+    //     formBtn.submit();
+    // }
 });
+
